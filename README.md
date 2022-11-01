@@ -7,7 +7,6 @@ A Deep CNN image classifier that takes chest x-rays as input and predicts whethe
 3. Data Preprcessing<br/>
 4. Model Architecture<br/>
 5. Training and evaluation<br/>
-6. References<br/>
 
 ## 1. Dataset
 Dataset is available on Kaggle. [Click Here to go to Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
@@ -23,3 +22,8 @@ A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which 
 
 The architecture of a ConvNet is analogous to that of the connectivity pattern of Neurons in the Human Brain and was inspired by the organization of the Visual Cortex. Individual neurons respond to stimuli only in a restricted region of the visual field known as the Receptive Field. A collection of such fields overlap to cover the entire visual area.
 ![CNN](https://github.com/niyarrbarman/pneumonia/blob/main/images/cnn.gif)
+## 5. Training and Evaluation
+- The model was trained for 10 epochs with a batch size of 32.
+- Loss function used was BinaryCrossentropy
+- Adam was used as optimizer with learning rate of 0.0001
+- We recieved a validation accuracy of **62.5%** and testing accuracy of **89.58%** 
