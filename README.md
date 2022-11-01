@@ -1,5 +1,5 @@
 # Pneumonia Predictor
-A Deep CNN image classifier that takes chest x-rays as input and predicts whether or the patient has pneumonia.<br><br>
+A Deep CNN image classifier that takes chest x-rays as input and predicts whether or not the patient has pneumonia.<br><br>
 ![Prediction Plot](https://github.com/niyarrbarman/pneumonia/blob/main/images/prediction.png)
 # Contents
 1. Dataset<br/>
