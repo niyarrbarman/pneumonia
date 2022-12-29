@@ -123,9 +123,9 @@ if __name__ == "__main__":
     # CONFIGURATIONS
 
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    LEARNING_RATE = ENTER_LEARNING_RATE
-    BATCH_SIZE = ENTER_BATCHSIZE
-    EPOCHS = ENTER_EPOCHS
+    LEARNING_RATE = ENTER_LEARNING_RATE     # 1e-3
+    BATCH_SIZE = ENTER_BATCHSIZE            # 32
+    EPOCHS = ENTER_EPOCHS                   # 15
     TRAIN_DIR = ENTER_TRAIN_DIR
     VAL_DIR = ENTER_VAL_DIR
 
