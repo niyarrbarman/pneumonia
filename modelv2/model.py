@@ -131,7 +131,7 @@ if __name__ == "__main__":
 
     # GET DATA
 
-    trainLoader, valLoader = Data(train_dir=TRAIN_DIR, val_dir=VAL_DIR, batch_size=BATCH_SIZE)
+    trainLoader, valLoader = Data(train_dir=TRAIN_DIR, val_dir=VAL_DIR, batch_size=BATCH_SIZE).load()
 
     # MODEL
 
