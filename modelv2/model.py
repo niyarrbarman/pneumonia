@@ -95,7 +95,7 @@ def train_aug():
 def val_aug():
 
     return transforms.Compose([
-        transforms.CenterCrop((256, 256)),
+        transforms.Resize((256, 256)),
         transforms.ToTensor()
     ])
 
